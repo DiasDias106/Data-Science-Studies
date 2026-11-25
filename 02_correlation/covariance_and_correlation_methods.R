@@ -1,0 +1,15 @@
+# Mean, variance, standard deviation, covariance and the Pearson, Spearman and Kendall correlation coefficients.
+
+x = c(0,0,3)
+y = c(1,2,0)
+mean(x)
+mean(y)
+var(x)
+var(y)
+sd(x)
+sd(y)
+cov(x,y)
+cor(x,y)
+cor(x,y,method="pearson")
+cor(x,y,method="spearman")
+cor(x,y,method="kendall")
